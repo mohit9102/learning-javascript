@@ -1,1 +1,0 @@
-console.log("why are you gay?");
