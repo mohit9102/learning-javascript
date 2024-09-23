@@ -1,0 +1,15 @@
+Duration - 12 month	
+Frontend :	
+HTML	1 WEEK
+CSS	2 WEEK
+TAILWIND CSS + TAILWIND PROJECTS 	2 WEEK
+JAVA SCRIPT	1 MONTH
+JAVA  SCRIPT PROJECTS  - At least 10 projects	15 DAYS
+DSA IN JS	1.5 MONTH
+REACT PROJECTS	1.5 MONTH
+Backend :	
+API DEVLOPMENT - spend time in NODE JS 	1.5 MONTH
+Authentication , Authorization and Role base access ( Create projects - at 2-3)	
+DATABASE - MONGO DB AND MY SQL	1.5 MONTH
+last - Create projects and practice	3 month
+
