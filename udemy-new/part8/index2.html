@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+
+    <p id="myParagraph">Click the button to change my color.</p>
+    <button id="colorButton">Change Color</button>
+
+    <script>
+        // Selecting the paragraph and the button
+        const paragraph = document.getElementById('myParagraph');
+        const button = document.getElementById('colorButton');
+
+        // Adding an event listener to the button
+        button.addEventListener('click', () => {
+            // Change the color of the paragraph when the button is clicked
+            paragraph.style.color = 'blue';
+        });
+    </script>
+</body>
+</html>
