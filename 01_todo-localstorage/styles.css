@@ -46,19 +46,33 @@ input[type="text"] {
 }
 
 button {
-  width: 25%;
-  padding: 10px;
-  background-color: #6200ea;
+  width: 60px; /* Set a fixed width for consistency */
+  padding: 12px 20px; /* Adjusted padding for better spacing */
+  background-color: #4a00e0; /* A slight variation in color for better contrast */
   border: none;
-  border-radius: 5px;
-  color: #fff;
+  border-radius: 8px; /* Increased radius for a more modern look */
+  color: #ffffff;
+  font-size: 16px; /* Make the text more readable */
+  font-weight: 600; /* Make text stand out */
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transition for transform */
 }
 
 button:hover {
-  background-color: #3700b3;
+  background-color: #7b33ff; /* Lighter color for hover effect */
+  transform: scale(1.05); /* Slight scaling for a dynamic hover effect */
 }
+
+button:active {
+  background-color: #3f00b5; /* Darker color on click for feedback */
+  transform: scale(0.98); /* Slight shrink for button press feedback */
+}
+
+button:focus {
+  outline: 2px solid #bb86fc; /* Outline for accessibility focus */
+  outline-offset: 2px; /* Better spacing for focus outline */
+}
+
 
 ul {
   list-style-type: none;
