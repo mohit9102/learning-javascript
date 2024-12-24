@@ -1,0 +1,75 @@
+/* Reset default styles for consistent behavior across browsers */
+* {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  box-sizing: border-box; /* Includes padding and border in element's dimensions */
+}
+
+/* Styling the body to center the quiz app and set the theme */
+body {
+  font-family: Arial, sans-serif; /* Sets a clean and readable font */
+  background-color: #121212; /* Dark theme background */
+  color: #ffffff; /* White text color for contrast */
+  display: flex; /* Enables flexbox for centering */
+  justify-content: center; /* Horizontally centers the container */
+  align-items: center; /* Vertically centers the container */
+  height: 100vh; /* Full viewport height for perfect centering */
+}
+
+/* Main container styling */
+.container {
+  width: 400px; /* Fixed width for the container */
+  padding: 20px; /* Adds spacing inside the container */
+  background-color: #1e1e1e; /* Slightly lighter dark color for distinction */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds subtle depth with shadow */
+  text-align: center; /* Centers text inside the container */
+}
+
+/* Styling for headings */
+h1,
+h2 {
+  margin-bottom: 20px; /* Adds spacing below headings for better readability */
+}
+
+/* Unordered list styling for removing default bullets */
+ul {
+  list-style-type: none; /* Removes bullet points from the list */
+  padding: 0; /* Removes extra padding for a cleaner look */
+}
+
+/* Individual list item (quiz option) styling */
+li {
+  background-color: #333333; /* Dark gray background for options */
+  padding: 10px; /* Adds spacing inside each option */
+  margin-bottom: 10px; /* Spacing between options */
+  border-radius: 5px; /* Smooth rounded corners */
+  cursor: pointer; /* Indicates interactivity */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for quiz options */
+li:hover {
+  background-color: #6200ea; /* Purple highlight on hover */
+}
+
+/* General button styling */
+button {
+  padding: 10px; /* Adds padding for a clickable area */
+  background-color: #6200ea; /* Purple background color */
+  border: none; /* Removes default button border */
+  border-radius: 5px; /* Smooth rounded corners */
+  color: white; /* White text color for contrast */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #3700b3; /* Darker purple on hover for feedback */
+}
+
+/* Class to hide elements dynamically through JavaScript */
+.hidden {
+  display: none; /* Completely hides the element */
+}
